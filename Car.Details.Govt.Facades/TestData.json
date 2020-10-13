@@ -1,0 +1,60 @@
+{
+  "MockData" :{
+    "TestData": [
+      {
+        "CarRegNumber": "1597538426",
+        "Insurance": {
+          "InsuranceStatus": "Valid"
+        },
+        "Pollution": {
+          "PollutionCertificate": "Valid"
+        },
+        "Accident": {
+          "Accidents": [
+            {
+              "Date": "1/1/2020",
+              "Type": "Minor"
+            }
+
+          ]
+        },
+        "Owner": {
+          "Owners": [
+            {
+              "FromDate": "1/1/2020",
+              "EndDate": "none",
+              "Name": "OwnerOne"
+            }
+          ]
+        }
+      },
+      {
+        "CarRegNumber": "0123456789",
+        "Insurance": {
+          "InsuranceStatus": "Valid"
+        },
+        "Pollution": {
+          "PollutionCertificate": "Expired"
+        },
+        "Accident": {
+          "Accidents": [
+            {
+              "Date": "1/1/2020",
+              "Type": "Minor"
+            }
+
+          ]
+        },
+        "Owner": {
+          "Owners": [
+            {
+              "FromDate": "1/1/2020",
+              "EndDate": "none",
+              "Name": "OwnerOne"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

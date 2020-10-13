@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Car.Details.Govt.BusinessLogic\Car.Details.Govt.BusinessLogic.csproj" />
+    <ProjectReference Include="..\Car.Details.Govt.Cache\Car.Details.Govt.Cache.csproj" />
+  </ItemGroup>
+
+</Project>
